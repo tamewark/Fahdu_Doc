@@ -1,0 +1,133 @@
+What is Fahdu?
+
+FAHDU is a creator-user engagement platform where users can interact via chat, audio calls, subscribe and follow creators.
+
+How to sign up on Fahdu?
+ Option 1: Continue with Google
+Open FAHDU app
+Click “Continue with Google”
+Select Google account
+Grant required permissions
+If authentication is successful → User is redirected to the app
+Proceed to Agreement Screen (if first-time user)
+Option 2: Continue with Apple (iOS Users)
+Open FAHDU app
+Click “Continue with Apple”
+Authenticate using Apple ID (Face ID / Password)
+Grant permissions
+If authentication is successful → User is redirected to the app
+Proceed to Agreement Screen
+Option 3: Manual Signup (Email & Password)
+Step 1: Registration Form
+Click “Sign Up”
+Enter:
+Valid Email Address
+Password-Password must contains - 8 Characters, An Uppercase, A Lower case, A Number & A Special Character
+Confirm Password
+Click “Sign Up” button
+Step 2: Email Verification
+After signup, a popup appears:
+ “Verify your email”
+User checks their registered email inbox
+Receives verification email from FAHDU
+Clicks “Confirm Email” button in email
+User is redirected back to the FAHDU app
+Step 3: Agreement & Continue Screen
+After verification:
+User sees “Agree & Continue” screen
+Toggle button to accept Terms & Conditions
+Click “Continue” button
+Account is successfully created
+User is redirected to home
+
+How to login on Fahdu?
+Option 1: Continue with Google
+Open FAHDU app
+Click “Continue with Google”
+Select your Google account
+Grant required permissions
+If authentication is successful → User is logged in
+Redirected to Home/Dashboard
+Option 2: Continue with Apple (iOS Users)
+Open FAHDU app
+Click “Continue with Apple”
+Authenticate using Apple ID (Face ID / Password)
+Grant permissions
+If authentication is successful → User is logged in
+Redirected to Home/Dashboard
+ Option 3: Manual Login (Email & Password)
+Click “Login” button
+Enter:
+Registered Email Address
+Password
+Click “Login” button
+If credentials are correct → Login successful
+Redirected to Home
+Login Failure Cases
+Incorrect email or password → Error message shown
+Email not verified → User asked to verify email
+Suspended/blocked account → Access denied
+How to Recover Your FAHDU Account Password
+If you forget your FAHDU account password, you can reset it by following the steps below.
+Note: If you originally signed up using Continue with Google or Continue with Apple, you can simply log in again using those methods. Password reset is only required for manual email/password accounts.
+Reset Password via Email (Manual Login Users)
+Step 1: Go to Login Screen
+Open FAHDU app
+Click “Login”
+Enter your registered email
+On the password screen, click “Forgot Password?”
+
+
+Step 2: Request OTP
+Enter your registered email address
+Click “Send Code”
+An OTP (One-Time Password) is sent to your registered email
+
+
+Step 3: Verify OTP
+Check your email inbox
+Copy the OTP
+Enter the OTP on the verification screen
+Click “Verify”
+If OTP is correct → You proceed to the reset password screen.
+Step 4: Set New Password
+Enter your new password
+Confirm your new password
+Password Requirements:
+Password must contain:
+Minimum 8 characters
+At least one uppercase letter
+At least one lowercase letter
+At least one number
+At least one special character
+Final Step
+Password is successfully updated
+You can now log in using your new password
+
+FAHDU – Role Selection Flow (After Signup)
+ First-Time User Role Selection
+After completing the signup process and logging in for the first time, users are shown a role selection module.
+The screen asks:
+“Are you a Creator?”
+ Options: Yes / No
+If User Selects “Yes” (Creator)
+User clicks “Yes”
+User is redirected to the Get Verified page
+User must complete the verification process
+After verification approval, creator features become accessible
+Purpose:
+This flow ensures that only verified creators can access creator-specific features.
+ If User Selects “No” (Regular User)
+User clicks “No”
+User is redirected to the Discover Page
+User can:
+
+
+Browse creators
+Follow creators
+Start chat
+Book audio calls
+Important Notes
+This screen appears only for first-time login.
+Role selection determines available features inside the app.
+
