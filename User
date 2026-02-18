@@ -1,0 +1,313 @@
+FAHDU – Discover, Creator Profile & Wallet Recharge Flow
+Discover Page (User Flow)
+After login:
+Navbar → Third Option → Discover
+On the Discover Page, users can:
+View multiple creators from different niches
+Browse:
+ Popular Creators
+ New Creators
+Scroll and explore different profiles
+Users can click on any creator name/profile to open the Creator Profile Page. Creator Profile Page Flow
+When a user opens a creator profile, they can see:
+ Creator Fee Structure
+The creator’s charges for:
+Chat
+Live Stream
+Video Call
+Audio Call
+The profile may also show:
+Different pricing for:
+Followers
+Subscribers
+Follow Feature
+A Follow button is visible on the profile page
+User clicks Follow
+User becomes a follower of that creator
+As a follower, the user can:
+Send messages
+Start chat
+Interact based on available wallet balance
+Wallet & Recharge Flow
+To chat or subscribe, users must have sufficient coins.
+If balance is low:
+Step 1: Open Wallet
+Go to Home Page
+Click Top Hamburger Icon
+Select Wallet
+Android Recharge Flow (Cashfree)
+Android users recharge via Cashfree Payment Gateway.
+Available Android Packs:
+Pack Name
+Price
+Coins
+Offer
+Faltu Pack
+₹236
+200 Coins
+—
+Farzi Pack
+₹1180
+1000 Coins
+—
+Fukery Pack
+₹2360
+2060 Coins
+3% Discount
+Funtoosh Pack
+₹5900
+5100 Coins
+5% Discount
+Fahdu Pack
+₹11800
+10800 Coins
+8% Discount
+
+Users can pay using:
+PhonePe
+Google Pay (GPay)
+Debit Card
+Other supported payment methods
+After successful payment:
+Coins are added to wallet instantly
+iOS Recharge Flow
+iOS users have different recharge packs.
+Available iOS Packs:
+Pack Name
+Price
+Coins
+Faltu Pack
+₹49
+28 Coins
+Farzi Pack
+₹99
+56 Coins
+Fukery Pack
+₹149
+85 Coins
+
+After payment:
+Coins are credited to wallet
+User can start interaction
+Interaction After Recharge
+Once wallet is recharged, user can:
+Chat with creator
+Send messages
+Subscribe to creator
+Join Live Stream
+Book Video Call
+Book Audio Call
+All actions depend on:
+Creator’s fee structure
+Available wallet balance
+Important Business Logic
+Users must recharge before paid interaction
+Creator fees may differ for followers & subscribers
+Android and iOS packs are different
+Coins are required for all paid services
+
+How User Uses Chat Feature
+Starting Chat
+User follows a creator
+Once followed → Chat room becomes active
+Chat room is visible on
+User side
+Creator side
+ Chat Messaging Logic
+User sends messages to creator
+Charges are applied per message based on creator’s fee setup
+Coins are deducted automatically from user’s wallet
+
+
+ Pay-Per-View (PPV) Content
+Creator can send:
+Images
+Videos
+Documents
+These can be:
+Free
+Paid (PPV – Pay Per View)
+If content is paid:
+User sees locked content
+User clicks to unlock
+Coins are deducted
+User can view that specific PPV file
+
+How User Uses Live Stream Feature
+Live Notification
+If a followed creator goes live:
+User receives notification
+Live status appears on:
+
+
+Home Page
+Chat section (showing “Creator is Live”)
+
+
+Joining Live Stream
+User clicks on live notification
+Enters live stream
+Access and pricing depend on:
+User role (Follower / Subscriber)
+Creator’s live stream fee setup
+User pays coins based on:
+Follower price OR
+Subscriber price
+
+
+Live Stream Goals
+During live stream:
+Users can support creator
+Help creator complete live goals
+Interact in real time
+
+How User Uses Tip Feature
+If the user has sufficient wallet balance, they can tip creators.
+Tips can be sent via:
+ Post Tip
+ Chat Tip
+ Call Tip
+ Live Stream Tip
+Process:
+User selects tip option
+Enters tip amount
+Coins are deducted
+Creator receives tip
+From chat screen:
+User selects Audio or Video Call
+User chooses call duration (example: 30 minutes)
+Sends call request
+
+
+Coin Hold Logic
+When call request is sent:
+Required coins are put on hold
+Coins are temporarily deducted but not finalized
+ If Creator Accepts
+Creator accepts request
+Creator schedules call
+At scheduled time → Call starts
+After call completion → Coins are finalized
+Refund Conditions
+Coins are refunded if:
+Creator does not accept request
+Call is not completed
+Call fails in 3 attempts
+In such cases:
+Held coins are returned to user wallet
+
+
+
+ How Home Page Post Visibility & User Interaction Flow
+The Home Page displays creator posts based on the user’s relationship (Follower or Subscriber) with the creator.
+ Post Visibility Based on User Role
+Post visibility depends on whether the user is a:
+Follower
+Subscriber
+ If User is a Follower
+User can:
+View follower-only posts
+Like the post
+Comment on the post
+Send Tip
+Share the post
+Follower cannot view subscriber-only posts.
+If User is a Subscriber
+User can:
+View follower posts
+View subscriber-only posts
+Like posts
+Comment on posts
+Send Tip
+Share posts
+Subscribers get access to both follower and subscriber content.
+ Available Actions on Posts
+On each visible post, user can:
+ Like
+ Comment
+ Tip (Send coins to creator)
+ Share
+All interactions depend on the user’s role.
+
+how user use user side setting options?
+Users can access Settings from their profile or menu section.
+The Settings section allows users to manage their account, wallet, subscriptions, and app-related information.
+Edit Profile
+Using Edit Profile, users can update their personal information:
+Add / Update Cover Image
+Add / Update Profile Image
+Add Full Name
+Set Username
+Add Bio
+After updating → Save changes → Profile updates successfully.
+ Subscribed
+The Subscribed section shows:
+List of creators the user has subscribed to
+Subscription status:
+Active
+Inactive
+This helps users track their active and expired subscriptions.
+Following
+The Following section shows:
+List of creators the user is following
+Users can view and manage the creators they follow.
+Change Password
+Using Change Password, users can:
+Enter current password
+Enter new password
+Confirm new password
+Save changes
+Password gets updated successfully.
+Get Verified
+If a regular user wants to become a creator:
+Click Get Verified
+Apply for creator verification
+Submit required details
+Wait for admin approval
+After approval → User account becomes Creator account.
+Transaction History
+The Transaction section allows users to:
+View coin spending history
+See where coins were used:
+Chat
+Live Stream
+Calls
+Tips
+Subscriptions
+It provides full transparency of wallet usage.
+Wallet
+Using Wallet, users can:
+Recharge their e-wallet
+Check available coin balance
+View recharge history
+Blocked Accounts
+If a user blocks any creator:
+Blocked creator appears in Blocked Accounts list
+User can:
+View blocked creators
+Unblock them anytime
+Account Management
+Using Account Management, users can:
+Delete their FAHDU account permanently
+Once deleted:
+Account access is removed
+Terms & Policies
+Users can view:
+Terms & Conditions
+ Privacy Policy
+ Refund Policy
+These pages explain FAHDU’s rules and policies.
+About
+The About section shows:
+FAHDU app version
+Basic app information
+Help Center
+Using Help Center, users can:
+Contact FAHDU Admin
+Report issues
+Raise complaints
+Ask questions regarding payments, calls, subscriptions, etc.
+ Logout
+Using Logout, users can:
+Log out of their FAHDU account
+Return to login screen
